@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.Flags{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+/* .east, .west {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 320px;
+  padding: 20px;
+} */
+
+.east h2 {
+  color: #0086ff;
+}
+
+.west h2 {
+  color: #ff8000;
+}
+
+/* .country {
+  margin-bottom: 25px;
+} */
+
+/* .country img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+} */
+img{
+    width: 200px;
+    height: 200px;
+}
